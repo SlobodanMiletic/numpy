@@ -1,6 +1,8 @@
 name: Windows Arm64
 
-on: workflow_dispatch
+on: 
+  pull_request:
+  workflow_dispatch:
 
 env:
   python_version: 3.12
